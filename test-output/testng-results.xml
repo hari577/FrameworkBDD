@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19008" started-at="2020-03-27T06:45:14Z" finished-at="2020-03-27T06:45:33Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnersclass.TestRunner@204f30ec]" name="feature" class="runnersclass.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="19008" started-at="2020-03-27T06:45:14Z" finished-at="2020-03-27T06:45:33Z">
+      <class name="runnersclass.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runnersclass.TestRunner@204f30ec]" name="setUpClass" is-config="true" duration-ms="323" started-at="2020-03-27T06:45:14Z" finished-at="2020-03-27T06:45:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnersclass.TestRunner@204f30ec]" name="feature" duration-ms="18557" started-at="2020-03-27T06:45:14Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-27T06:45:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fingertip Login test cases]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+      </class> <!-- runnersclass.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
